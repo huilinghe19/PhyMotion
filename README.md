@@ -1,12 +1,15 @@
 # PhyMotion
 1, Start PhyMotionCtrl Tango DS
+
 Terminal 1: 
-~/tango/DeviceClasses/Motion/PhyMotionCtrl/tags/Release_1_2/bin/PhyMotionCtrl test
+  ~/tango/DeviceClasses/Motion/PhyMotionCtrl/tags/Release_1_2/bin/PhyMotionCtrl test
 
 2, Start PhyMotionDIOM Tango DS
+
 Termibal 2:
-~/tango/DeviceClasses/InputOutput/PhyMotionDIOM/tags/Release_1_0/bin/PhyMotionDIOM test
+  ~/tango/DeviceClasses/InputOutput/PhyMotionDIOM/tags/Release_1_0/bin/PhyMotionDIOM test
 
 3, Start PhyMotionMotor Tango DS
+
 Terminal 3: 
-~/tango/DeviceClasses/Motion/PhyMotionMotor/tags/Release_1_5/bin/PhyMotionMotor test
+  ~/tango/DeviceClasses/Motion/PhyMotionMotor/tags/Release_1_5/bin/PhyMotionMotor test
