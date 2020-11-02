@@ -1,0 +1,71 @@
+R1S30000
+R2S10000
+R3S2000
+R4S800
+R5S4000
+R6SR3
+R7S4000
+R2<8000 NE9 N11
+R6SR4
+R3SR4
+R9SR1
+R10SR2
+R9/R10
+R6*R9
+XP15SR7
+YP15SR7
+YP14SR3
+XP14SR6
+X+R1
+Y+R2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$1,1
+set X move postion 
+$2,1
+set Y move position
+$3,1
+set Y start frequency (normal)
+$4,1
+set Y start frequency (low)
+$5,1
+set Y start frequency (high)
+$6,1
+get Y normal start frequency 
+$7,1
+set P15 (acceleration value) for X Y
+$8,1
+if the Y move position is smaller than 8000, set Y low start frequency.
+$9,1
+low start frequency copy 
+$10,1
+low start frequency copy 
+$13,1
+get the ratio of the two paths
+$14,1
+get new start frequency for X
+$15,1
+write acceleration value into X
+$16,1
+write acceleration value into Y
+$17,1
+write start frequency value into Y
+$18,1
+write start frequency value into X
+$19,1
+move X with R1
+$20,1
+move Y with R2
