@@ -1,3 +1,6 @@
+#MCC 2 controller 
+
+
 MCC 2 controller is an older product from PhyMotion firm. We use it just to understand the theory of PhyMotion control and learn something for the future use. 
 
 There are 2 axises. One axis runs with a normal frequency 6000, one runs with a normal frequency 2000. The acceleration are set as 4000. In principle,
